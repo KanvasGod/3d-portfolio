@@ -2,6 +2,13 @@
   "name": "3d-portfolio",
   "version": "0.0.0",
   "private": true,
+  "authors": {
+    "developers": "Malik Harrison, Malcolm Willams",
+    "music": "",
+    "designer": "Malik Harrison",
+    "3d designer": "",
+    "story/writer": ""
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",

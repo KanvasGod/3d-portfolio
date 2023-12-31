@@ -1,0 +1,103 @@
+{
+    "weapon_classes": {
+        "pistol": {
+            "dmg": 1,
+            "splash": 0,
+            "ef_range": 1,
+            "critical": 2,
+            "clip_size": 6,
+            "capasity": 24,
+            "cone": "5-5"
+        },
+        "shotgun": {
+            "dmg": 3,
+            "splash": 0,
+            "ef_range": 1,
+            "critical": 1.5,
+            "clip_size": 8,
+            "capasity": 80,
+            "cone": "40-0"
+        },
+        "sub_mechine_gun": {
+            "dmg": 1,
+            "splash": 0,
+            "ef_range": 2,
+            "critical": 2,
+            "clip_size": 20,
+            "capasity": 120,
+            "cone": "7-5"
+        },
+        "heavy_mechine_gun": {
+            "dmg": 3,
+            "splash": 0,
+            "ef_range": 2,
+            "critical": 2,
+            "clip_size": 100,
+            "capasity": 0,
+            "cone": "8-2"
+        },
+        "assault_rifle": {
+            "dmg": 2,
+            "splash": 0,
+            "ef_range": 3,
+            "critical": 2,
+            "clip_size": 30,
+            "capasity": 150,
+            "cone": "3-2"
+        },
+        "sniper": {
+            "dmg": 5,
+            "splash": 0,
+            "ef_range": 5,
+            "critical": 3,
+            "clip_size": 5,
+            "capasity": 30,
+            "cone": "50-0"
+        },
+        "explosive": {
+            "dmg": 5,
+            "splash": 10,
+            "ef_range": "infinite",
+            "critical": 1,
+            "clip_size": 2,
+            "capasity": 0,
+            "cone": "0-0"
+        },
+        "special": {
+            "dmg": 3,
+            "splash": 0,
+            "ef_range": 1,
+            "critical": 2,
+            "clip_size": 4,
+            "capasity": 12,
+            "cone": "0-0"
+        }
+    },
+    "default_weapons": {
+        "Glock": {
+            "type": "pistol"
+        },
+        "Mossburge": {
+            "type": "shotgun"
+        },
+        "Ak47": {
+            "type": "assault_rifle"
+        },
+        "Rpk": {
+            "type": "heavy_mechine_gun"
+        },
+        "P5": {
+            "type": "sub_mechine_gun"
+        },
+        "Rpg": {
+            "type": "special",
+            "dmg": 10,
+            "splash": 10,
+            "ef_range": "infinite",
+            "critical": 1,
+            "clip_size": 1,
+            "capasity": 7,
+            "cone": "15-0"
+        }
+    }
+}
